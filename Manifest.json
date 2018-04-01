@@ -1,0 +1,32 @@
+{
+  "info" : 
+  {
+    "name" : "qxdb",
+
+    "summary" : "",
+    "description" : "",
+    
+    "homepage" : "",
+
+    "license" : "MIT license",
+    "authors" : [
+  {
+    "name": "Ivan Ergunov (don_vanchos)",
+    "email": "hozblok@gmail.com"
+  }
+],
+
+    "version" : "2.1",
+    "qooxdoo-range": "6.0.0-alpha"
+  },
+  
+  "provides" : 
+  {
+    "namespace"   : "qxdb",
+    "encoding"    : "utf-8",
+    "class"       : "source/class",
+    "resource"    : "source/resource",
+    "translation" : "source/translation",
+    "type"        : "application"
+  }
+}
