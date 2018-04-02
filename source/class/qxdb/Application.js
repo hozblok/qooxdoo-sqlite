@@ -75,6 +75,9 @@ qx.Class.define("qxdb.Application",
       var container = new qx.ui.container.Composite(new qx.ui.layout.VBox());
       this.win = new qx.ui.container.Composite();
       this.win.setLayout(new qx.ui.layout.VBox());
+      var tb = new qxdb.DatabaseTable();
+      tb.setMinHeight(100);
+      this.win.add(tb, {flex : 1});
       this.win.add(this._table, {flex : 1});
       container.add(this.win, {flex : 1});
 
